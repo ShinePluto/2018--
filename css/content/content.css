@@ -1,0 +1,803 @@
+@charset "UTF-8";
+
+/*相同部分*/
+#wrap #content .h{
+    width:1200px;
+    margin:auto;
+}
+#wrap #content .h h2{
+    font-size:22px;
+    padding:30px 0 10px 0;
+    line-height:1;
+    color:#3a3a3a;
+}
+#hot-shop .right ul li p img,#products ul li img,#banner_t ul li img,#banner_f ul li img,#banner_fif ul li img{
+    height:125px;
+}
+#hot-shop .right ul li span,#products ul li span,#banner_t ul li span,#banner_fif ul li span{
+    position:absolute;
+    top:125px;
+    left:140px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:url("../../picture/b-b/hot-sell.png") no-repeat 0 0;
+}
+#hot-shop .left:hover,#hot-shop .right ul li:hover,#products ul li:hover,#banner_t ul li:hover,#banner_f ul li:hover,#banner_fif ul li:hover,#allPhone ul li:hover,#computer ul li:hover,#tablePC ul li:hover,#watch ul li:hover,#furniture ul li:hover,#h_parts ul li:hover,#b_parts ul li:hover{
+    box-shadow:0 10px 15px rgba(0,0,0,.1);
+    transition:0.5s;
+    transform:translate3d(0px,-3px,0px);
+}
+
+
+/*中间标题 Start*/
+#wrap #content .h_more{
+    height:60px;
+}
+#wrap #content .h_more h2{
+    padding:0;
+    line-height:50px;
+}
+#content .h_more ul li{
+    float:left;
+    height:50px;
+    margin-left:20px;
+    text-align: center;
+    line-height:50px;
+    padding-top:10px;
+    font-size:16px;
+}
+#content .h_more ul li a{
+    color:#a3a3a3;
+    padding-bottom:5px;
+}
+#content .h_more ul li a:hover{
+    color:#ca141d;
+    border-bottom:2px solid #ca141d;
+}
+/*中间标题 End*/
+
+
+
+
+
+/*Banner Start*/
+#wrap #banner{
+    position:relative;
+    min-width:1420px;
+    height:450px;
+    background:url('../../picture/banner/banner-1.jpg') no-repeat 0/cover;
+}
+#wrap #banner .radius{
+    position:absolute;
+    left:50%;
+    bottom:20px;
+    width:230px;
+    height:20px;
+    margin-left:-100px;
+    text-align: center;
+}
+#wrap #banner .radius span{
+    display:inline-block;
+    width:12px;
+    height:12px;
+    border:1px solid #fff;
+    border-radius:50%;
+    line-height:12px;
+    cursor: pointer;
+}
+#wrap #banner .radius span:hover{
+    background:#fff;
+}
+#banner .nav{
+    width:1200px;
+    height:100%;
+    margin:auto;
+}
+#banner .nav .left{
+    position:relative;
+    width:240px;
+    height:100%;
+    background:rgba(0,0,0,.5);
+}
+#banner .nav .left ul li{
+    height:60px;
+    color:#fff;
+    text-indent:15px;
+    padding-top:15px;
+}
+#banner .nav .left ul li h4{
+    font-size:16px;
+    margin-bottom:5px;
+}
+#banner .nav .left ul li p span{
+    display:block;
+    float:right;
+    width:20px;
+    height:20px;
+    background:url(../../images/sprites3.png) no-repeat 5px -28px;
+    margin-right:5px;
+}
+#banner .nav .left ul li p a{
+    font-size:14px;
+    color:#ccc;
+    margin-right:10px;
+}
+#banner .nav .left ul li.bg:hover{
+    background:rgba(0,0,0,.7);
+}
+#banner .nav .left ul li p a:hover{
+    color:#fff;
+}
+#banner .right{
+    display:none;
+    position:absolute;
+    top:0;
+    left:240px;
+    width:644px;
+    height:100%;
+    background:#fff;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+#banner .right .right_f{
+    height:70px;
+    border-bottom:1px solid #ccc;
+}
+#banner .right p{
+    line-height:70px;
+    text-indent:40px;
+    font-size:14px;
+    color: #d00000;
+}
+#banner .right .right_s{
+    height:140px;
+    border-bottom:1px solid #ccc;
+}
+#banner .nav .right .right_s p a{
+    color:#000;
+}
+#banner .nav .right .right_s p a:hover{
+    color:red;
+}
+#banner .right .right_t{
+    height:238px;
+}
+#banner .right .right_t ul li{
+    float: left;
+    width:160px;
+    height:223px;
+    border-right:1px solid #ccc;
+    text-align: center;
+    text-indent:0;
+}
+#banner .right .right_t ul li.last{
+    border:none;
+}
+#banner .right .right_t ul li img{
+    width:90px;
+}
+#banner .right .right_t p{
+    height:16px;
+    margin-top:10px;
+    line-height:100px;
+    text-indent:0;
+}
+#banner .nav .left ul li.first:hover .right{
+    display:block;
+}
+#banner .nav .left ul li.second:hover .right{
+    display:block;
+}
+#banner .nav .left ul li.third:hover .right{
+    display:block;
+}
+#banner .nav .left ul li.fourth:hover .right{
+    display:block;
+}
+#banner .nav .left ul li.fifth:hover .right{
+    display:block;
+}
+#banner .nav .left ul li.sixth:hover .right{
+    display:block;
+}
+/*Banner End*/
+
+/*Service Start*/
+#wrap #content #service{
+    width:1200px;
+    height:95px;
+    margin:auto;
+    border:1px solid #ccc;
+}
+#service ul li{
+    float:left;
+    width:295px;
+    height:95px;
+}
+#service .enter div{
+    height:85px;
+    margin-top:5px;
+    border-right:1px dotted #ccc;
+}
+#service .enter div ul li{
+    float:left;
+    width:90px;
+    height:95px;
+}
+#service .enter div  img{
+    width:65px;
+    margin:15px 0 0 15px;
+}
+#service .enter div ul li.content{
+    width:200px;
+    font-size:14px;
+}
+#service .enter p{
+    color: #8d8d8d;
+    margin:10px 0 0 10px;
+}
+#service .enter span{
+    display:inline-block;
+    width:65px;
+    height:20px;
+    color:red;
+    border:1px solid red;
+    text-align:center;
+    cursor:pointer;
+}
+#service .enter span:hover{
+    color:#fff;
+    background:red;
+}
+#service .log_nav{
+    width:600px;
+    height:95px;
+    border-right:1px solid #ccc;
+}
+#service .log_nav ul{
+    width:100%;
+    height:75px;
+    margin-top:13px;
+}
+#service .log_nav ul li{
+    width:16.3%;
+    height:72px;
+}
+#service .log_nav .img{
+    width:40px;
+    height:40px;
+    background:url('../../picture/b4e266806f053505b9d501940ef097bb.png') no-repeat 0 0;
+    margin:5px auto 0;
+    cursor:pointer;
+}
+#service .log_nav .content{
+    width:50px;
+    font-size:12px;
+    line-height:20px;
+    text-align: center;
+    margin:auto;
+    cursor:pointer;
+}
+#service .log_nav .content:hover{
+    color:red;
+}
+#service .right{
+    width:303px;
+    height:95px;
+}
+#service .right div{
+    height:50%;
+}
+#service .right div span{
+    display:inline-block;
+    height:100%;
+    text-align: center;
+    line-height:47px;
+}
+#service .right .s_r_bottom ul li{
+    float:left;
+    width:100px;
+    height:48px;
+    text-align: center;
+}
+#service .right .s_r_bottom ul li i{
+    display:inline-block;
+    width:25px;
+    height:15px;
+    vertical-align: middle;
+    margin-left:5px;
+    background:url('../../picture/b4e266806f053505b9d501940ef097bb.png') no-repeat -237px -4px;
+}
+#service .right .s_r_bottom ul li span{
+    font-size:12px;
+    vertical-align:middle;
+    line-height:43px;
+    cursor:pointer;
+}
+#service .right .s_r_bottom ul li span:hover{
+    color:red;
+}
+/*Service End*/
+
+/*Phone Start*/
+#wrap #content #phone{
+    width:1200px;
+    height:160px;
+    margin:auto;
+}
+#phone ul{
+    margin-top:10px;
+}
+#phone ul li{
+    float:left;
+    width:290px;
+    height:160px;
+    cursor:pointer;
+}
+#phone ul li:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,.1);
+    transition:0.5s;
+}
+/*Phone End*/
+
+
+/*HotShop Start*/
+#wrap #content #hot-shop{
+    width:1200px;
+    height:590px;
+    margin:auto;
+}
+#hot-shop .left{
+    float:left;
+    width:230px;
+    height:100%;
+}
+#hot-shop .right{
+    float:left;
+    width:970px;
+    height:100%;
+}
+#hot-shop .right ul li{
+    float:left;
+    position:relative;
+    width:230px;
+    height:290px;
+    margin:0 0 10px 12px;
+    background:#fff;
+}
+#hot-shop .right ul li p{
+    text-align:center;
+    font-size:14px;
+    line-height:20px;
+    color:#3a3a3a;
+}
+/*HotShop End*/
+
+
+/*Products Start*/
+#wrap #content #products{
+    position:relative;
+    width:1200px;
+    height:288px;
+    margin:auto;
+    overflow:hidden;
+    background:#fff;
+}
+#products span{
+    position: absolute;
+    top: 130px;
+    width: 20px;
+    height: 58px;
+    cursor:pointer;
+}
+#products span.left{
+    left:0;
+    background:url("../../images/sprites3.png") no-repeat -35px -4px rgba(0,0,0,.2);
+}
+#products span.right{
+    right:0;
+    background:url("../../images/sprites3.png") no-repeat -55px -4px rgba(0,0,0,.2);
+}
+#products span.left:hover{
+    background:url("../../images/sprites3.png") no-repeat -35px -4px rgba(0,0,0,.5);
+}
+#products span.right:hover{
+    background:url("../../images/sprites3.png") no-repeat -55px -4px rgba(0,0,0,.5);
+}
+#products ul li{
+    position:relative;
+    float:left;
+    width:239px;
+    height:288px;
+    border-right:1px solid #e1e1e1;
+    text-align: center;
+}
+#products ul li:hover{
+    box-shadow:0 10px 15px rgba(0,0,0,.1);
+    transform:translate3d(0px,-2px,0px);
+}
+/*Products End*/
+
+/*Banner_s Start*/
+#wrap #content #banner_s{
+    position:relative;
+    width:1200px;
+    height:120px;
+    margin:auto;
+    padding:20px 0 0;
+}
+#banner_s .radius{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    text-align:center;
+}
+#banner_s .radius span{
+    display:inline-block;
+    width:10px;
+    height:10px;
+    border:1px solid #fff;
+    border-radius:50%;
+    cursor:pointer;
+}
+#banner_s .radius span:hover{
+    background:#fff;
+}
+/*Banner_s End*/
+
+/*allPhone Start*/
+#wrap #content #allPhone{
+    width:1200px;
+    height:705px;
+    margin:auto;
+}
+#allPhone ul li{
+    position:relative;
+    float:left;
+    width:290px;
+    height:345px;
+    margin-bottom:10px;
+    margin-left:12px;
+    text-align: center;
+    background:#fff;
+}
+#allPhone ul li img{
+    height:150px;
+}
+#allPhone ul li span{
+    position:absolute;
+    top:150px;
+    left:180px;
+    display:block;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:url("../../picture/b-b/hot-sell.png") no-repeat 0 0;
+}
+/*allPhone End*/
+
+/*Computer Start*/
+
+#wrap #content #computer{
+    width:1200px;
+    height:350px;
+    margin:auto;
+}
+#computer ul li{
+    position:relative;
+    float:left;
+    width:290px;
+    height:345px;
+    background:#fff;
+    text-align: center;
+    margin-left:12px;
+}
+#computer ul li img{
+    height:150px;
+}
+#computer ul li span{
+    position:absolute;
+    top:140px;
+    left:190px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:url("../../picture/b-b/hot-sell.png") no-repeat 0 0;
+}
+/*Computer End*/
+
+/*tablePC Start*/
+#wrap #content #tablePC{
+    width:1200px;
+    height:705px;
+    margin:auto;
+}
+#tablePC ul li{
+    position:relative;
+    float:left;
+    width:290px;
+    height:345px;
+    background:#fff;
+    text-align: center;
+    margin-left:12px;
+    margin-bottom:10px;
+}
+#tablePC ul li img{
+    height:150px;
+}
+#tablePC ul li span{
+    position:absolute;
+    top:140px;
+    left:190px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:url("../../picture/b-b/hot-sell.png") no-repeat 0 0;
+}
+/*tablePC End*/
+
+/*Watch Start*/
+#wrap #content #watch{
+    width:1200px;
+    height:705px;
+    margin:auto;
+}
+#watch ul li{
+    position:relative;
+    float:left;
+    width:290px;
+    height:345px;
+    background:#fff;
+    text-align: center;
+    margin-left:12px;
+    margin-bottom:10px;
+}
+#watch ul li img{
+    height:150px;
+}
+#watch ul li span{
+    position:absolute;
+    top:140px;
+    left:190px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:url("../../picture/b-b/hot-sell.png") no-repeat 0 0;
+}
+/*Watch End*/
+
+/*Furniture Start*/
+#wrap #content #furniture{
+    width:1200px;
+    height:705px;
+    margin:auto;
+}
+#furniture ul li{
+    position:relative;
+    float:left;
+    width:290px;
+    height:345px;
+    background:#fff;
+    text-align: center;
+    margin-left:12px;
+    margin-bottom:10px;
+}
+#furniture ul li img{
+    height:150px;
+}
+#furniture ul li span{
+    position:absolute;
+    top:140px;
+    left:190px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:url("../../picture/b-b/hot-sell.png") no-repeat 0 0;
+}
+/*Furniture End*/
+
+/*Banner_t Start*/
+#wrap #content #banner_t{
+    position:relative;
+    width:1200px;
+    height:288px;
+    margin:auto;
+    overflow:hidden;
+    background:#fff;
+}
+#banner_t span {
+    position: absolute;
+    top: 130px;
+    width: 20px;
+    height: 58px;
+    cursor:pointer;
+}
+#banner_t span.left{
+    left:0;
+    background:url("../../images/sprites3.png") no-repeat -35px -4px rgba(0,0,0,.2);
+}
+#banner_t span.right{
+    right:0;
+    background:url("../../images/sprites3.png") no-repeat -55px -4px rgba(0,0,0,.2);
+}
+#banner_t span.left:hover{
+    background:url("../../images/sprites3.png") no-repeat -35px -4px rgba(0,0,0,.5);
+}
+#banner_t span.right:hover{
+    background:url("../../images/sprites3.png") no-repeat -55px -4px rgba(0,0,0,.5);
+}
+#banner_t ul li{
+    position:relative;
+    float:left;
+    width:239px;
+    height:288px;
+    border-right:1px solid #e1e1e1;
+    text-align: center;
+}
+#banner_t ul li:hover{
+    box-shadow:0 10px 15px rgba(0,0,0,.1);
+    transform:translate3d(0px,-2px,0px);
+}
+/*Banner_t End*/
+
+/*h_Parts Start*/
+#wrap #content #h_parts{
+    width:1200px;
+    height:705px;
+    margin:auto;
+}
+#h_parts ul li{
+    position:relative;
+    float:left;
+    width:290px;
+    height:345px;
+    background:#fff;
+    text-align: center;
+    margin-left:12px;
+    margin-bottom:10px;
+}
+#h_parts ul li img{
+    height:150px;
+}
+#h_parts ul li span{
+    position:absolute;
+    top:140px;
+    left:190px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:url("../../picture/b-b/hot-sell.png") no-repeat 0 0;
+}
+/*h_Parts End*/
+
+/*Banner_t Start*/
+#wrap #content #banner_f{
+    position:relative;
+    width:1200px;
+    height:288px;
+    margin:auto;
+    overflow:hidden;
+    background:#fff;
+}
+#banner_f span {
+    position: absolute;
+    top: 130px;
+    width: 20px;
+    height: 58px;
+    cursor:pointer;
+}
+#banner_f span.left{
+    left:0;
+    background:url("../../images/sprites3.png") no-repeat -35px -4px rgba(0,0,0,.2);
+}
+#banner_f span.right{
+    right:0;
+    background:url("../../images/sprites3.png") no-repeat -55px -4px rgba(0,0,0,.2);
+}
+#banner_f span.left:hover{
+    background:url("../../images/sprites3.png") no-repeat -35px -4px rgba(0,0,0,.5);
+}
+#banner_f span.right:hover{
+    background:url("../../images/sprites3.png") no-repeat -55px -4px rgba(0,0,0,.5);
+}
+#banner_f ul li{
+    position:relative;
+    float:left;
+    width:239px;
+    height:288px;
+    border-right:1px solid #e1e1e1;
+    text-align: center;
+}
+#banner_f ul li:hover{
+    box-shadow:0 10px 15px rgba(0,0,0,.1);
+    transform:translate3d(0px,-2px,0px);
+}
+/*Banner_t End*/
+
+/*b_parts Start*/
+#wrap #content #b_parts{
+    width:1200px;
+    height:705px;
+    margin:auto;
+}
+#b_parts ul li{
+    position:relative;
+    float:left;
+    width:290px;
+    height:345px;
+    background:#fff;
+    text-align: center;
+    margin-left:12px;
+    margin-bottom:10px;
+}
+#b_parts ul li img{
+    height:150px;
+}
+#b_parts ul li span{
+    position:absolute;
+    top:140px;
+    left:190px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:url("../../picture/b-b/hot-sell.png") no-repeat 0 0;
+}
+/*b_parts End*/
+
+/*Banner_fif Start*/
+#wrap #content #banner_fif{
+    position:relative;
+    width:1200px;
+    height:288px;
+    margin:auto;
+    overflow:hidden;
+    background:#fff;
+}
+#banner_fif span {
+    position: absolute;
+    top: 130px;
+    width: 20px;
+    height: 58px;
+    cursor:pointer;
+}
+#banner_fif span.left{
+    left:0;
+    background:url("../../images/sprites3.png") no-repeat -35px -4px rgba(0,0,0,.2);
+}
+#banner_fif span.right{
+    right:0;
+    background:url("../../images/sprites3.png") no-repeat -55px -4px rgba(0,0,0,.2);
+}
+#banner_fif span.left:hover{
+    background:url("../../images/sprites3.png") no-repeat -35px -4px rgba(0,0,0,.5);
+}
+#banner_fif span.right:hover{
+    background:url("../../images/sprites3.png") no-repeat -55px -4px rgba(0,0,0,.5);
+}
+#banner_fif ul li{
+    position:relative;
+    float:left;
+    width:239px;
+    height:288px;
+    border-right:1px solid #e1e1e1;
+    text-align: center;
+}
+#banner_fif ul li:hover{
+    box-shadow:0 10px 15px rgba(0,0,0,.1);
+    transform:translate3d(0px,-2px,0px);
+}
+/*Banner_fif End*/
+
+/*Bottom Start*/
+#wrap #content #bottom{
+    width:1200px;
+    height:120px;
+    margin:35px auto 65px;
+    background:url("../../images/bottom.jpg") no-repeat;
+}
+/*Bottom End*/
+
+
+
+
